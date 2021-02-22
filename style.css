@@ -1,0 +1,125 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+	font-size: 60px;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.navbarButton {
+	margin-left:  1em;
+	margin-right: 1em;
+	background: unset;
+	border: none;
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+.navbarButton:hover {
+	color: red;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// background-image: url("https://www.cssauthor.com/wp-content/uploads/2015/01/Wood-Texture.jpg");
+	// background-repeat: repeat-x;
+	width: 100%;
+	padding-bottom: 20px;
+	color: black;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.banner {
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+	object-position: 50% 30%;
+}
+
+.article {
+	max-width: 700px;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.7em;
+	margin-bottom: 8em;
+	padding: 2em;
+	margin-top: 15em;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.articleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-image: url("img1.webp");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: rgb(31, 30, 35);
+	object-fit: cover;
+}
+
+.contact {
+}
+
+.phoneNumber {
+}
+
+.fa-phone {
+	padding-left: 3em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+.languageBar {
+	width: 100%;
+	float: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.languageIcon {
+	width: 50px;
+	margin: 10px 5px;
+}
+
+.gallery {
+	box-sizing: border;
+	max-width: calc(100% - 10em);
+	width: 100%;
+}
+
+.imageList {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.imageList img {
+	height: 300px;
+	margin: 1em;
+}
